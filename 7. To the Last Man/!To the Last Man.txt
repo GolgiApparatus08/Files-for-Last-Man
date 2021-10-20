@@ -1,0 +1,125 @@
+Clearance	Location		Consequence for not completing shift						Effect of Visiting				
+	1		Barraks			Players must spend an extra action resting the following night.			Decreases the amount of times you must rest the following night by 1 and counts as a rest: BARRAKS		
+	1		Sanitation		Players must spend an extra action to finish shifts the following night.	Permanently removes your current weapon from the game: SANITATION
+			
+	2		Medical			Cause of deaths are not revealed the following day.				Erases signs of struggle: MEDICAL
+	2		Gymnasium		There is no special consequence for not completing this shift.			Increaes your fitness by 1/ Identifies all strengths without naming players: GYM [USE/LEARN]
+
+	3		Library			There is no special consequence for not completing this shift.			Increases your intellect by 1/ Identifies all intellects without naming players: LIBRARY [USE/LEARN]
+	3		Information		Players' ranks do not change the following day.					Identifies all ranks without naming players: INFO
+		
+	4		Communications		Players cannot make deductions or communicate privately the following day.	Returns all private messages exhanged between two players of your choice the previous day. Both are made aware someone has done this: COMMS [Player][Player]
+	4		Bathhouse		There is no special consequence for not completing this shift.			Increases your reflexes by 1/ Identifies all nerves without naming players: BATHHOUSE [USE/LEARN]
+	
+	5		Power 			Players cannot see each other's actions the following night.			Decreases the amount of times you must work to complete your shift the following night by 1: POWER
+	5		Armaments 		Players can use any type of weapon the following night.				Identifies a random weapon that is currently in use: ARMS
+
+	6		Security		Players will not be informed of tonight's deaths the following day.		Identifies the location of all players/corpses without naming any of them: SECURITY
+	6		Command			Players are not told which shifts are theirs (told collectively).		Identifies all current shifts without naming players: COMMAND
+
+Weapons
+	Blunt (Must overcome the victum with Strength)
+		Liquor Handle		You don't need sleep, but can't do work.		
+		Combat Award		Other players cannot deduce your strength.
+		Encrypted Laptop	You do not need to visit a room to sabotage it.	
+		Heavy Briefcase		Other players cannot deduce your weapon.
+		"The Prince"		You will try to kill any witnesses.				
+		Alarm Clock		You can update your action plans halfway through the night.
+	Medical (Must overcome the victum with Intellect)
+		Exotic Poison		Other players cannot deduce your intellect.
+		Aggressive Stimulants	Your shift is always completed in 1 action.
+		Pet Snake		Choose a room each night. You see what happened there.			*NOTE: Other players will see the snake if they visit said room.
+		First Aid		You never show marks.												
+		Sleeping Pills		You can kill resting or sleeping victims without a fight.		*NOTE: People still see you kill them, you just don't need to overpower them.
+		Neurotoxic Gas		You can ambush a room you do not have access to.
+	Sharp (Must Overcome the victum with Percision)
+		Kitchen Knife		Other players cannot deduce your current shift.
+		Decorative Sword	Other players cannot deduce your nerves.
+		Forged Keycard		Other players cannot deduce your rank.
+		Sacred Dagger		You attempt to kill killers you witness commit the act.							
+		Throwing Shurikens	No one sees your kills.
+		Improvised Shiv		You leave signs of a struggle when you DEFEND.
+	
+Actions (8 Actions per night; order matters; must usually REST 4 times)
+	KILL [Player]			Kills them at their location if you can access it and can overpower them. If you fail to overpower them, they will know you tried to kill them.
+	STEAL [Player]			Takes a weapon from a player if you have access to their location and higher nerves than them. You may use it for the rest of the night, and they cannot.
+	WATCH [Player]			You go to where this player is if you can access their location.
+
+	WORK [LOCATION]			Furthers that shift.
+	SABOTAGE [LOCATION]		For every action you spend doing this, that location will require an extra action to be completed the following night.
+	LOITER [LOCATION]		You go to that room if you can access it.
+
+	AMBUSH [LOCATION][Player]	If you guess this person's location correctly, you kill them instantly without a fight.
+	INFILTRATOR [LOCATION]		If you guess the infiltrator's location correctly, you can attempt to kill them. If you do, everyone WINS and you achieve the elusive TRUE VICTORY.
+
+	REST				You must spend 4 actions doing this each night.
+
+Room Actions (Will only work if you can access the rooms and they are functional)
+	BARRAKS			Decreases the amount of times you must rest the following night by 1 and counts as a rest.		
+	SANITATION		Permanently removes your current weapon from the game.
+	GYMNASIUM [USE/LEARN]	Increaes your strength by 0.5/ Lists all strength values in the base anonymously.
+	MEDICAL			Erases signs of struggle.
+	LIBRARY [USE/LEARN]	Increaes your intellect by 0.5/ Lists all intellect values in the base anonymously.
+	INFORMATION		Lists all rank values in the base anonymously.
+	BATHHOUSE [USE/LEARN]	Increaes your nerves by 0.5/ Lists all nerves values in the base anonymously.
+	COMMUNICATIONS		Returns all private messages exhanged between two players of your choice the previous day. Both are made aware someone has done this.
+	POWER			Decreases the amount of times you must work to complete your shift the following night by 1.
+	ARMAMENTS		Identifies one weapon in use anonymously.
+	SECURITY		Lists all player and corpse locations in the base anonymously.
+	COMMAND			Lists all shifts in the base anonymously.
+
+Things you can prove with your Evidence Card:
+
+	-Any current trait/card of yours
+		[I have 1 fitness!]
+		[I have sleeping pills!]
+
+	-Room returns (+timestamp if liable to change) (the room has to be working to use evidence from it)
+		[In comms, I found out Nathan had told Chuck he wanted to kill Paul yesterday!] (this makes the whole conversation public)
+		[In arms, I found out someone had an encrypted laptop at 11 PM last night!]
+		[In info, I found out Ryan's fitness was 4 at 5 AM last night!]
+		[In security, I located Paul in comms at 2 AM last night!]
+		[In command, I found out Jack had the power shift last night!]
+
+	-For the Challenge
+		[My weapon was used last night!]
+
+WHAT DO ACTIONS LOOK LIKE
+	1. "Paul was working on the room."
+		a. Paul was actually working on the room.
+		b. Paul was sabotaging the room.
+
+	2. "Jack was just chilling."
+		a. Jack succeded in stealing from someone in the room.
+		b. Jack was trying to use the room and but it was dysfunctional.
+		c. Jack was watching someone who was also there.
+		d. Jack was trying to attack someone who was also there, but they were defending.
+		e. Jack had failed to get into the room his action required, so had nothing to do.
+		f. Jack had simply chosen to keep an eye on that room in particular.
+
+	3. "Scott was resting."
+		a. Scott was resting.
+		c. Scott was pretending to rest (defending with the improvised shiv).
+
+
+TRAITS ARE NOT CURRENTLY IN THE GAME (They were a possbile replacement to weapons that would not be tied to weapon type)
+
+Traits
+	Drunk		You don't need sleep, but can't do work.			10% everytime you witness a murder.
+	Massive		Other players cannot deduce your strength.		 	
+	Tech Savy	You do not need to visit a room to sabotage it.			
+	Great Actor	Other players cannot deduce your role.				
+	Cutthroat	You will try to kill any witnesses.				10% for every honor you lose.
+	Adaptive	You can update your action plans halfway through the night.	
+	Esoteric	Other players cannot deduce your intellect.			
+	High Energy	Your shift is always completed in 1 action.
+	Snake Charmer	Choose a room each night. You see what happened there.
+	Medical Expert	You never show marks.						
+	Quiet		You can kill resting or sleeping victims without a fight.	
+	Chemist		You do not need to visit a room to ambush it.			
+	Well Rounded	Other players cannot deduce your current shift.			
+	Stoner		Other players cannot deduce your nerves.			
+	Social Climber	Other players cannot deduce your rank.				
+	Heroic		You attempt to kill killers you witness commit the act.		10% for every honor you gain.
+	Stealthy	No one sees your kills.						
+	Prankster	You leave signs of a struggle when you DEFEND.
